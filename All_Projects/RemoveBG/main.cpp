@@ -12,7 +12,7 @@ Mat canny(Mat src);
 
 int main() {
 	// Load image
-	Mat src = imread("F:\\Nampc\\ComputerVision\\APP_DIP_Cpp\\All_Projects\\ImageTest\\china_girl_2_resize.jpg");
+	Mat src = imread("..\\ImageTest\\china_girl_1.jpg");
 
 	imshow("image source", src);
 
@@ -55,7 +55,7 @@ int main() {
 	//4. Dilate
 	Mat dilateGrad = edges;
 	int dilateType = MORPH_ELLIPSE;
-	int dilateSize = 3;
+	int dilateSize = 5;
 	Mat elementDilate = getStructuringElement(dilateType,
 		Size(2 * dilateSize + 1, 2 * dilateSize + 1),
 		Point(dilateSize, dilateSize));

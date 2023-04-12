@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\RemoveBG\main.cpp(98,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  RemoveBG.vcxproj -> F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\Output\x64\Binaries\RemoveBG\RemoveBG.exe
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.

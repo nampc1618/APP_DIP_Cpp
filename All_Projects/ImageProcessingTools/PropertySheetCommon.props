@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <Npc_BIN>$(SolutionDir)NpcLibraries\Bin</Npc_BIN>
+    <OPENCV_INCLUDE_DIR>$(SolutionDir)External\opencv430\include</OPENCV_INCLUDE_DIR>
+    <OPENCV_LIBS_NAME>opencv_core430d.lib;opencv_imgproc430d.lib;opencv_imgcodecs430d.lib;opencv_highgui430d.lib;opencv_videoio430d.lib</OPENCV_LIBS_NAME>
+    <OPENCV_LIBS_DIR>$(SolutionDir)External\opencv430\x64\vc16\lib</OPENCV_LIBS_DIR>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutDir>$(Npc_LIBS)</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Npc_INCLUDE);$(OPENCV_INCLUDE_DIR)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OPENCV_LIBS_DIR)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(OPENCV_LIBS_NAME);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="Npc_BIN">
+      <Value>$(Npc_BIN)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENCV_INCLUDE_DIR">
+      <Value>$(OPENCV_INCLUDE_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENCV_LIBS_NAME">
+      <Value>$(OPENCV_LIBS_NAME)</Value>
+    </BuildMacro>
+    <BuildMacro Include="OPENCV_LIBS_DIR">
+      <Value>$(OPENCV_LIBS_DIR)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

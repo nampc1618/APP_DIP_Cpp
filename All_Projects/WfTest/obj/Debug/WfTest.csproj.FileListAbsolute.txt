@@ -1,0 +1,16 @@
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\bin\Debug\WfTest.exe.config
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\bin\Debug\WfTest.exe
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\bin\Debug\WfTest.pdb
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\bin\Debug\CvToolWrapper.dll
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\bin\Debug\CvToolWrapper.pdb
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\Output\x64\Binaries\WfTest\WfTest.exe.config
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\Output\x64\Binaries\WfTest\WfTest.exe
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\Output\x64\Binaries\WfTest\WfTest.pdb
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.Form1.resources
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.Properties.Resources.resources
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.csproj.GenerateResource.cache
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.csproj.CoreCompileInputs.cache
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.exe
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.pdb
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.csproj.CopyComplete
+F:\Nampc\ComputerVision\APP_DIP_Cpp\All_Projects\WfTest\obj\Debug\WfTest.csproj.AssemblyReference.cache
